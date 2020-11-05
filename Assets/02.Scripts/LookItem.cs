@@ -8,7 +8,7 @@ public class LookItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     private Animator anim;
     private readonly int hashIsOpen = Animator.StringToHash("IsOpen");
-    void Star()
+    void Start()
     {
         anim = GetComponent<Animator>();
     }
